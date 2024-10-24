@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100dvh;
+  width: 100dvw;
+  background-color: rgba(95, 2, 162, 0.714);
+}
+
+.all {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  padding: 1rem;
+  height: 85%;
+  width: 80%;
+  max-width: 40rem;
+
+  background-color: rgba(107, 209, 112, 0.888);
+
+  border-radius: 1rem;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+
+  max-width: 30rem;
+  text-align: center;
+}
+
+.intro p {
+  font-style: italic;
+  text-align: justify;
+}
+
+#ts-ignore {
+  color: grey;
+}
+
+#const {
+  color: rgb(12, 103, 239);
+}
+
+#variable {
+  color: rgb(12, 167, 239);
+}
+
+#equals {
+  color: white;
+}
+
+#value {
+  color: rgb(12, 182, 239);
+}
+
+.ts-ignore-full-display {
+  padding: 1rem;
+
+  background-color: black;
+  border: 2px solid grey;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.ts-ignore-small-display {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.the-counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.forgotten-count {
+  color: orange;
+  text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px black;
+  font-size: 4rem;
+}
+
+.the-counter p:nth-child(3) {
+  font-style: italic;
+  font-size: 0.8rem;
+}
+
+.have-spoken {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+
+  font-style: italic;
+}
+
+.have-spoken button {
+  padding: 10px;
+  background-color: rgb(253, 182, 52);
+  border-radius: 1rem;
+  border: solid 1px purple;
+}

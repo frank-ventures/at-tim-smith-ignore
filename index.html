@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The ts-ignore count</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="all">
+      <div class="intro">
+        <h1>Tim forgets I speak in meetings</h1>
+        <p>
+          Ever wonder how many times you've tried to meaningfully contribute to
+          a meeting, and Tim has not only forgotten you, but also blamed others
+          for not nominating you?
+        </p>
+      </div>
+
+      <div class="ts-ignore-full-display">
+        <h4 id="const">
+          const <span id="variable">personToForget</span>
+          <span id="equals">=</span>
+          <span id="value">Frankie</span>
+        </h4>
+        <div class="ts-ignore-small-display">
+          <h4 id="ts-ignore">// @t(im)s(mith)-ignore</h4>
+          <h4 id="const">
+            const <span id="variable">hasFrankieSpoken</span>
+            <span id="equals">=</span>
+            <span id="value">true</span>
+          </h4>
+        </div>
+      </div>
+
+      <div class="the-counter">
+        <p class="lest-we-forget">So we don't forget, currently it's:</p>
+        <p><span class="forgotten-count">2</span> times</p>
+        <p>Last updated on 24th Oct 2024</p>
+      </div>
+
+      <div class="have-spoken">
+        <p>
+          Not sure if Frankie has spoken in the meeting yet? Click here to find
+          out:
+        </p>
+        <button id="have-spoken">Check if I have spoken</button>
+      </div>
+    </div>
+  </body>
+</html>
